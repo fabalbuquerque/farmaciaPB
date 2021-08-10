@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box; /* define que o tamanho máximo do box já engloba o border e o padding*/
+}
+
+
+body{
+    font-family: 'roboto', sans-serif;
+    color: #ED3237;
+    font-size: 16px;
+}
+
+
+.container { /*foi criada uma classe geral, que centraliza com tamanho 1000px. Para utilizar onde quiser*/
+    width: 100%; /* diz que o tamanho é 100% do pai, no caso a página inteira*/
+    max-width: 1000px; /*limita o tamanho máximo em 1000px*/
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex; /* deixa os elementos lado a lado ocupando o espaço da linha*/
+    flex-wrap: wrap; /*caso os elementos não caibam na mesma linha irão ocupar a próxima linha*/
+    justify-content: space-between; /*alinhamento horizontal, o primeiro elemento ocupa o início da linha e o último ocupa o final da linha*/
+    align-items: center; /*alinhamento vertical dos elementos, centralizado*/
+}
+
+main {
+    margin: 100px 80px 0 88px;
+}

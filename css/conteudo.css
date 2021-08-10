@@ -1,0 +1,47 @@
+main {
+    margin-top: 155px;
+}
+
+h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(129, 5, 5);
+    font-weight: bold;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    margin-top: 30px; 
+    column-gap: 5px;   
+}
+
+.grid-1 > div {
+    
+    text-align: center;
+    box-shadow: 1px 1px 3px rgb(129, 5, 5);
+}
+
+.img-1 {
+    margin-top: 10px;
+    box-shadow: 1px 1px 3px rgb(129, 5, 5);
+}
+
+.med-1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4d4748;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.preco {
+    color: rgb(129, 5, 5);
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.titulo {
+    margin-top: 40px;
+}

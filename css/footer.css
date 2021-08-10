@@ -1,0 +1,37 @@
+footer {
+    background-color: rgb(233, 48, 48);
+    color: #fff;
+    margin-top: 30px;
+}
+
+.fundo {
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.cartoes {
+    display: flex;
+    height: 44px;
+    box-shadow: none;    
+}
+
+.cartoes-2 {
+    padding: 10px 0 0 0;
+}
+
+.aviso {
+    width: 1150px;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    text-align: justify;
+}

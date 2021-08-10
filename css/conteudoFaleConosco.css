@@ -1,0 +1,32 @@
+main {
+    margin-top: 155px;
+}
+
+h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(129, 5, 5);
+    font-weight: bold;
+}
+
+section > p {
+    text-align: justify;
+    width: 500px;
+    margin: 20px auto 0 auto;
+}
+
+.contato-whats {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.whatsapp {
+    color: rgb(12, 206, 12);
+    font-size: 40px;
+}
+
+.img2 {
+    width: 1000px;
+    margin: 0 auto;
+}

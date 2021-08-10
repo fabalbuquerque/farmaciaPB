@@ -1,0 +1,115 @@
+#topo {
+    width: 100%;
+    height: 83px;
+    background-color: #ED3237;
+    color: #fff;
+    position: fixed;
+    top: 0;
+}
+
+.logo-cabecalho {
+    margin: 0 0 0 80px;
+}
+
+#topo form {
+    background-color: #F4F4F4;
+    width: 420px;
+    margin: 0 200px 0 0;
+    border-radius: 5px;
+}
+
+#topo label {
+    display: none; /*esconde o texto*/
+}
+
+#topo input,
+#topo button {
+    border: none; /*retira a borda*/
+    background-color: transparent; /*deixa o interior transparente*/
+}
+
+/* caixa onde está escrito: digite sua pesquisa*/
+#topo input{
+    padding: 8px;
+    flex-grow: 1; /*faz o elemento ocupar toda a área que estiver disponível*/
+    font-family: inherit; /*faz a fonte ficar igual ao pai. Inherit - Herdar*/
+    font-size: inherit;
+    outline: none; /*retira a marcação de borda quando o mouse está sobre o elemento*/
+}
+
+#topo #menu {
+    background-color: rgb(129, 5, 5);
+    font-size: 11px;
+}
+
+#menu div {
+    margin:0 0 0 68px;
+    padding: 10px 0;
+    width: 1200px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #ED3237;
+}
+
+#menu li,
+#menu aside ul {
+    display: inline-block; /*deixa os textos do menu lado a lado como bloco*/
+}
+
+#menu > div > ul > li { /*seleciona uma li descendente direta de uma ul, que é de uma div, que é descendente de um menu*/
+    border-right: 1px solid #fff; /*separador branco entre os menus*/
+    padding: 0 20px;
+}
+
+#menu li:last-child {
+    border-right: none; /*retira o separador do último menu*/
+}
+
+strong {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+aside ul li a i {
+    font-size: 16px;
+}
+
+aside ul li a i:first-child {
+    padding-left: 10px;
+}
+
+@media (min-width: 640px) {
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho__logo {
+        padding: 2.5em 0;
+    }
+
+    .cabecalho__menu {
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 770px) {
+    .cabecalho__item-menu--matricular {
+        margin-left: 1.42em;
+        border-radius: 6px;
+        background-color: #e93d50;
+    }
+
+    .cabecalho__item-menu--matricular a {
+        padding: 1.8em 3.5em;
+    }
+}

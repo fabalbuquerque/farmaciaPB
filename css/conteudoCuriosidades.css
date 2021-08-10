@@ -1,0 +1,19 @@
+.med-1 {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-1 > div:hover {
+    background-color: #ED3237;
+}
+
+.link {
+    font-weight: 600;
+    color: #4d4748;
+    letter-spacing: inherit;
+}
+
+.link:hover {
+    color: #4d4748;
+}
